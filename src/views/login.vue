@@ -54,7 +54,7 @@ export default {
     handleLogin() {
       var vm = this;
       vm.$http({
-        url: 'http://localhost:8080/user/login',
+        url: '/user/login',
         method: 'post',
         data: {
           "userName": this.user.userName,
